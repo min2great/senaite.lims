@@ -15,9 +15,9 @@ with open("docs/Changelog.rst", "r") as fh:
 
 
 setup(
-    name="senaite.lims",
+    name="valer.lims",
     version=version,
-    description="SENAITE LIMS - Meta Package",
+    description="VALER LIMS - Meta Package",
     long_description=long_description,
     # long_description_content_type="text/markdown",
     # Get more strings from
@@ -30,9 +30,9 @@ setup(
         "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
     ],
     keywords="",
-    author="RIDING BYTES & NARALABS",
-    author_email="senaite@senaite.com",
-    url="https://github.com/senaite/senaite.lims",
+    author="Valer Group LLC",
+    author_email="valerio.zhang@valer.us",
+    url="https://github.com/valeriozhang/senaite.lims",
     license="GPLv2",
     packages=find_packages("src", exclude=["ez_setup"]),
     package_dir={"": "src"},
@@ -40,12 +40,12 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        "senaite.core>=1.3.4",
-        "senaite.core<1.4.0",
-        "senaite.core.listing>=1.5.2",
-        "senaite.core.spotlight>=1.0.3",
-        "senaite.impress>=1.2.4",
-        "senaite.jsonapi>=1.2.3",
+        "valer.core>=1.3.4",
+        "valer.core<1.4.0",
+        "valer.core.listing>=1.5.2",
+        "valer.core.spotlight>=1.0.3",
+        "valer.impress>=1.2.4",
+        "valer.jsonapi>=1.2.3",
         "setuptools",
     ],
     extras_require={
