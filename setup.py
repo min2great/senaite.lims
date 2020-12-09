@@ -17,7 +17,7 @@ with open("docs/Changelog.rst", "r") as fh:
 setup(
     name="valer.lims",
     version=version,
-    description="VALER LIMS - Meta Package",
+    description="VALER LIS - Meta Package",
     long_description=long_description,
     # long_description_content_type="text/markdown",
     # Get more strings from
