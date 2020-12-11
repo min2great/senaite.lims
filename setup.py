@@ -46,6 +46,7 @@ setup(
         "valer.core.spotlight>=1.0.3",
         "valer.impress>=1.2.4",
         "valer.jsonapi>=1.2.3",
+        "valer.panic = 1.0.0,
         "setuptools",
     ],
     extras_require={
