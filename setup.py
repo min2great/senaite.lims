@@ -2,7 +2,7 @@
 
 from setuptools import setup, find_packages
 
-version = "1.3.4"
+version = "1.3.4rc1"
 
 with open("docs/About.rst", "r") as fh:
     long_description = fh.read()
@@ -15,7 +15,7 @@ with open("docs/Changelog.rst", "r") as fh:
 
 
 setup(
-    name="valeri.lims",
+    name="valer.lims",
     version=version,
     description="VALER LIS - Meta Package",
     long_description=long_description,
@@ -40,13 +40,12 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        "valeri.core>=1.3.4",
-        "valeri.core<1.4.0",
-        "valeri.core.listing>=1.5.2",
-        "valeri.core.spotlight>=1.0.3",
-        "valeri.impress>=1.2.4",
-        "valeri.jsonapi>=1.2.3",
-        "valeri.panic<=1.0.1",
+        "valer.core==1.3.5rc1",
+        "valer.core.listing==1.5.3rc1",
+        "valer.core.spotlight==1.0.3rc1",
+        "valer.impress==1.2.4rc1",
+        "valer.jsonapi==1.2.3rc1",
+        "valer.panic==1.0.1rc1",
         "setuptools",
     ],
     extras_require={
