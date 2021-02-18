@@ -2,7 +2,7 @@
 
 from setuptools import setup, find_packages
 
-version = "1.3.4rc8"
+version = "1.3.4rc9"
 
 with open("docs/About.rst", "r") as fh:
     long_description = fh.read()
@@ -40,12 +40,12 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        "valer.core==1.3.5rc8",
-        "valer.core.listing==1.5.3rc8",
-        "valer.core.spotlight==1.0.3rc8",
-        "valer.impress==1.2.4rc8",
-        "valer.jsonapi==1.2.3rc8",
-        "valer.panic==1.0.1rc8",
+        "valer.core==1.3.5rc9",
+        "valer.core.listing==1.5.3rc9",
+        "valer.core.spotlight==1.0.3rc9",
+        "valer.impress==1.2.4rc9",
+        "valer.jsonapi==1.2.3rc9",
+        "valer.panic==1.0.1rc9",
         "setuptools",
     ],
     extras_require={
